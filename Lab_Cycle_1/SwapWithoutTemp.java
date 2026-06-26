@@ -13,6 +13,8 @@ class Swap {
 
         System.out.print("Enter B: ");
         B = sc.nextInt();
+
+        sc.close();
     }
 
     void swapNumbers() {
@@ -28,6 +30,7 @@ class Swap {
         System.out.println("\nAfter Swap");
         System.out.println("A = " + A);
         System.out.println("B = " + B);
+     
     }
 }
 
