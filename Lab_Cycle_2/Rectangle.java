@@ -28,6 +28,8 @@ class Rectangle {
         System.out.print("Breadth: ");
         int b = sc.nextInt();
 
+        sc.close(); 
+        
         Rectangle r1 = new Rectangle();
         Rectangle r2 = new Rectangle(l, b);
 

@@ -27,5 +27,7 @@ class Employee {
 
         Employee e = new Employee(name, salary);
         e.display();
+
+        sc.close();
     }
 }

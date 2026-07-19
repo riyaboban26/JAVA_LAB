@@ -28,5 +28,7 @@ class Area {
 
         System.out.println("Area of Square = " + a.area(side));
         System.out.println("Area of Rectangle = " + a.area(l, b));
+
+        sc.close();
     }
 }
