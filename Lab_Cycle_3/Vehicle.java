@@ -45,7 +45,7 @@ public class Vehicle{
         Car c = new Car(2345, 1000.0, 4);
         c.displayDetails();
         c.computeRent(5);
-        System.out.println("Total Rent for 5 days: " + c.computeRent(5));
+        System.out.println("Total Rent for 5 days: " + c.computeRent(5));git status
     }
 }
 

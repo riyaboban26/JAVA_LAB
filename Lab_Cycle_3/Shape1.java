@@ -24,7 +24,7 @@ class circle extends shape{
 		System.out.println(area);
 	}
 }
-public class q2{
+public class Shape1{
 	public static void main(String[] args){
 		circle c = new circle(5,"Circle");
 		c.describe();
