@@ -9,6 +9,7 @@ class GradeCalculator {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Marks: ");
         this.marks = scanner.nextInt();
+        scanner.close();
     }
 
     // Method to determine and display the grade
@@ -26,6 +27,8 @@ class GradeCalculator {
         }
 
         System.out.println("Grade = " + grade);
+
+        
     }
 }
 

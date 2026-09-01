@@ -25,6 +25,8 @@ public class Sum {
         System.out.print("Enter number: ");
         int inputNumber = scanner.nextInt();
         int result = calculator.calculateSum(inputNumber);
+
+        scanner.close();
         
         // Output result
         System.out.println("Sum of digits = " + result);
